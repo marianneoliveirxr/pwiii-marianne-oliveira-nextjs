@@ -7,6 +7,7 @@ Projeto de Next.js
 Set-ExecutionPolicy RemoteSigned
 
 # 2. Abrir o terminal na raiz do projeto
+cd nextjs-dashboard
 
 # 3. Instalar o PNPM globalmente (caso ainda não tenha)
 npm install -g pnpm
