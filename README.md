@@ -1,7 +1,7 @@
 # pwiii-marianne-oliveira-nextjs
 Projeto de Next.js
 
-# 🚀 Executar o Dashboard
+# 🚀 Executar o Dashboard já instalado
 
 # 1. Permitir execução de scripts no PowerShell
 Set-ExecutionPolicy RemoteSigned
