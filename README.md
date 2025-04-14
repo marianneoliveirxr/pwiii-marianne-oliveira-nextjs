@@ -1,10 +1,21 @@
 # pwiii-marianne-oliveira-nextjs
 Projeto de Next.js
 
-# Executar Dashboard
-1 - Set-ExecutionPolicy RemoteSigned no Power Shell
-2- Abrir projeto no terminal 
-3- npm install -g pnpm
-4- pnpm i
-5- pnpm dev
-6- Acessar http://localhost:3000
+# 🚀 Executar o Dashboard
+
+# 1. Permitir execução de scripts no PowerShell
+Set-ExecutionPolicy RemoteSigned
+
+# 2. Abrir o terminal na raiz do projeto
+
+# 3. Instalar o PNPM globalmente (caso ainda não tenha)
+npm install -g pnpm
+
+# 4. Instalar as dependências do projeto
+pnpm install
+
+# 5. Iniciar o servidor de desenvolvimento
+pnpm dev
+
+# 6. Acessar no navegador:
+# http://localhost:3000
