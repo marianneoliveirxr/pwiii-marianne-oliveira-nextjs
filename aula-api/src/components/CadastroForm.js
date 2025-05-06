@@ -1,4 +1,6 @@
+'use client'
 import React, { useState } from 'react';
+
 
 const CadastroForm = () => {
     const [name, setName] = useState('');
@@ -45,6 +47,7 @@ const CadastroForm = () => {
                         className="shadow appearance-none border rounder w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        //toda ação executada chama um event 
                         />
                     </div>
                     <div className="mb-4">
