@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de CPF com Regex</title>
+</head>
+<body>
+    <h1>Validação de CPF</h1>
+    <form id="meuFormulario">
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+            <p id="mensagemErro" style="color: red;"></p>
+        </div>
+        <button type="button" onclick="validarCPF()">Validar</button>
+    </form>
+    
+    <script>
+        function validarCPF() {
+            const cpfInput = document.getElementById('cpf').value;
+            const mensagemErro = document.getElementById('mensagemErro');
+
+            const regexCPFBasico = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
+
+            if (regexCPFBasico.test(cpfInput)) {
+                mensagemErro.textContent = "CPF válido!";
+                mensagemErro.style.color = "green";
+            } else {
+                mensagemErro.textContent = "CPF inválido!";
+                mensagemErro.style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>
