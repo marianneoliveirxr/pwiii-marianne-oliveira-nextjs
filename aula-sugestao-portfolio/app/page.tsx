@@ -12,14 +12,14 @@ export default function Home() {
         <Navbar />
         <main className="p-16">
           {/* Seção Sobre */}
-          <section id="sobre" className="mb-28 text-center">
+          <section id="sobre" className="mb-14 text-center">
             <h1 className="text-5xl font-extrabold text-gradient mb-6">Olá, Sou a Marianne Oliveira</h1>
-            <p className="text-xl text-gray-400">Desenvolvedora apaixonada por criar experiências digitais inovadoras e impactantes, sempre buscando o equilíbrio entre funcionalidade e estética.</p>
+            <p className="text-2xl text-gray-400">Desenvolvedora apaixonada por criar experiências digitais inovadoras e impactantes, sempre buscando o equilíbrio entre funcionalidade e estética.</p>
           </section>
 
           {/* Seção Projetos */}
-          <section id="projetos" className="mb-28">
-            <h2 className="text-4xl font-bold text-gradient mb-10">Meus Projetos</h2>
+          <section id="projetos" className="mb-15">
+            <h2 className="text-4xl font-bold text-gradient mb-10 text-center">Meus Projetos</h2>
             <div className="grid md:grid-cols-2 gap-14">
               {/* Projeto 1 */}
               <div className="bg-gray-800 p-8 rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
@@ -52,7 +52,7 @@ export default function Home() {
           {/* Seção Contato */}
           <section id="contato" className="mb-28 text-center">
             <h2 className="text-4xl font-bold text-gradient mb-6">Contato</h2>
-            <p className="text-xl text-gray-400">Entre em contato pelo email: <span className="font-medium">marianneoliveirarodrigues@gmail.com</span></p>
+            <p className="text-2xl text-gray-400">Entre em contato pelo email: <span className="font-medium">marianneoliveirarodrigues@gmail.com</span></p>
 
             {/* Links para GitHub e LinkedIn */}
             <div className="mt-8 flex justify-center gap-14">
